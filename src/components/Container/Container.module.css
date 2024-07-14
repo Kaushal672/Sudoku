@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+}
+
+.game-section {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.btn-hint {
+    background: #ffdd00;
+    position: relative;
+    left: 250px;
+    margin-top: -10px;
+    display: block;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    transition: transform 300ms;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-hint:hover {
+    transform: scale(1.2);
+}
+
+.score-board h2 {
+    font-size: 32px;
+}
+
+.score-board h3 {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.action {
+    max-width: 200px;
+}
+
+.action select {
+    /* min-width: 200px; */
+    padding: 7px 40px 7px 12px;
+    display: inline;
+    width: 100%;
+    border: 1px solid #e8eaed;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 1px 3px -2px #9098a9;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 150ms ease;
+}
+
+.btn {
+    font-family: 'Press Start 2p', sans-serif;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 28px;
+    outline: none;
+    border: none;
+}
+
+.btn-start {
+    background-color: #4059ad;
+    box-shadow: 0 0.2em #0d3b66;
+}
+
+.game-widgets {
+    display: flex;
+    justify-content: center;
+}
+
+.game-widgets > button {
+    margin-left: 20px;
+}
+
+.btn-reset {
+    background-color: red;
+    box-shadow: 0 0.2em maroon;
+}
+
+.action select:focus {
+    outline: none;
+    border-color: #0077ff;
+    box-shadow: 0 0 0 2px rgba(#0077ff, 0.2);
+}
+
+.action select option {
+    padding: 10px;
+}
+
+.action label {
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.action select option:disabled {
+    display: none;
+}
+
+.btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 0.2em;
+}
