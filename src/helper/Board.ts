@@ -84,7 +84,7 @@ export default class SudokuBoard {
     }
 
     makeBoard(difficulty: keyof Difficulty) {
-        const holes: number = 4 * SudokuBoard._DIFICULTIES[difficulty];
+        const holes: number = 16 * SudokuBoard._DIFICULTIES[difficulty];
         let removedHoles = 0;
         this.startingBoard = this.board.map((a) => a.slice());
 

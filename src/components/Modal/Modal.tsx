@@ -4,9 +4,8 @@ import classes from './Modal.module.css';
 
 const Modal: FC<{
     score: number;
-    highScore: number;
     onClose: () => void;
-}> = ({ score, highScore, onClose }) => {
+}> = ({ score, onClose }) => {
     const overlayRoot = document.getElementById('overlay-root');
     const backdropRoot = document.getElementById('backdrop-root');
     if (!overlayRoot || !backdropRoot) return null;

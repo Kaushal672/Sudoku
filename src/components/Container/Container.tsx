@@ -175,13 +175,7 @@ const Container: FC = () => {
 
     return (
         <div className={classes.container}>
-            {showModal && (
-                <Modal
-                    score={curScore}
-                    highScore={highScore}
-                    onClose={closeModal}
-                ></Modal>
-            )}
+            {showModal && <Modal score={curScore} onClose={closeModal}></Modal>}
             {gameStart && (
                 <div className={classes['game-widgets']}>
                     <Timer
