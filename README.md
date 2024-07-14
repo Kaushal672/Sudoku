@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Sudoku Game Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a web-based Sudoku game where users can play, get hints, and choose different difficulty levels. The game board is dynamically generated and allows for interactive gameplay with a retro-inspired design.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dynamic Sudoku Board Generation**: Generates Sudoku boards with different difficulty levels.
+- **User Interaction**: Allows users to input numbers directly into the board.
+- **Hints**: Provides hints to help users solve the puzzle.
+- **Timer**: Keeps track of the time taken to solve the puzzle.
+- **Scoreboard**: Displays the highest scores.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: For building the user interface.
+- **TypeScript**: For type-safe JavaScript development.
+- **CSS Modules**: For styling the components.
+- **FontAwesome**: For icons used in the hints button.
 
-### `npm test`
+## Setup and Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or later)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   git clone https://github.com/yourusername/sudoku-game.git
+   cd sudoku-game
+   ```
 
-### `npm run eject`
+2. **Install dependencies:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```sh
+   npm install
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   or
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   ```sh
+   yarn install
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Running the Project
 
-## Learn More
+1. **Start the development server:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```sh
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   or
+
+   ```sh
+   yarn start
+   ```
+
+2. **Open the game in your browser:**
+
+   Navigate to `http://localhost:3000` in your web browser.
+
+## Gameplay Instructions
+
+1. **Start a new game** by clicking the "Start" button.
+2. **Choose the difficulty level** from the dropdown before starting the game.
+3. **Fill in the cells** with numbers 1-9.
+4. **Use hints** by clicking the hint button if you get stuck.
+5. **Complete the game** by filling in all the cells correctly.
+6. **View your score** in the modal that appears upon completion.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request for any changes you'd like to make.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out to [kbhandary672@gmail.com].
+
+---
+
+Happy solving! Enjoy playing the Sudoku game.
